@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: cornflowerblue;
+    padding: 1rem;
+    text-align: left;
+    font-size: larger; 
+    display: flex;
+
+}
+
+h3 {
+  border: 2px solid blue;  
+  padding: 10px; 
+  width: fit-content; 
+  display: inline-block; 
+  text-align: center;
+}
+
+
+section{
+    background-color:rgb(189, 217, 233);
+    font-family: serif;
+    padding: 2rem;
+    margin: 1em auto;
+    
+}
+a{
+    color: rgb(73, 97, 107);
+    text-decoration: none;
+     border: 2px solid rgb(108, 108, 148);  
+     width: fit-content; 
+      display: inline-block; 
+}
+.grid-container {
+    display: grid;
+}
+.flex-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+.flex-content{
+    flex-direction: column;
+}
+.your-image-class{
+    flex-basis: 30%;
+}
